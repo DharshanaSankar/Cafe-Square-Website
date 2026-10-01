@@ -1,0 +1,995 @@
+You are a senior product designer, UI/UX designer, frontend engineer, backend engineer, conversion-focused web designer, SEO specialist, accessibility specialist, and deployment engineer.
+
+Your task is to DESIGN, BUILD, TEST, OPTIMIZE, and DEPLOY a complete production-ready website/app for:
+
+                    ☕ CAFE SQUARE
+                  Rajapalayam, Tamil Nadu
+
+Do not just create a mockup or landing page.
+
+Build the actual working application from scratch, make it responsive, test all interactions, fix errors, and deploy it to a live URL.
+
+==================================================
+1. BUSINESS INFORMATION
+==================================================
+
+Business name:
+Cafe Square
+
+Location:
+Chinnasamy Mahal, 143E, PAC Ramasamy Raja Salai,
+near Andal Puram Bus Stop,
+Samsigapuram, Rajapalayam,
+Tamil Nadu 626108, India
+
+Phone:
++91 63812 83608
+
+Opening hours:
+9:30 AM – 10:30 PM
+
+Business type:
+Cafe / Coffee Shop / Food & Beverages
+
+Known menu categories:
+- Tea & Coffee
+- Mojitos & Coolers
+- Sandwiches
+- Fries
+- Momos
+- Maggi
+- Burgers
+- Popcorn
+- Pizza
+- Pasta
+- Desserts
+
+Known menu examples:
+- Ginger Tea
+- Masala Tea
+- Sulaimani
+- Butterfly Pea Tea
+- Cheese Corn Sandwich
+- Paneer Tikka Momos
+- Tandoori Maggi
+- Crispy Paneer Burger
+- Classic Veg Pizza
+
+IMPORTANT:
+Do NOT invent:
+- Customer reviews
+- Ratings
+- Awards
+- Prices
+- Offers
+- Business history
+- Claims about ingredients
+- Customer testimonials
+- Social media statistics
+
+If information is unavailable, use editable placeholders or clearly marked content fields.
+
+==================================================
+2. PRIMARY OBJECTIVE
+==================================================
+
+The website should make a visitor want to:
+
+1. Discover Cafe Square
+2. Explore the food
+3. View the menu
+4. Visit the cafe
+5. Call the cafe
+6. Order food
+7. Share the cafe with friends
+
+The website should feel like a real local café brand, not a generic restaurant template.
+
+Optimize the experience for both:
+- First-time visitors
+- Returning customers
+
+==================================================
+3. BRAND / VISUAL DIRECTION
+==================================================
+
+Create a modern, premium, warm café identity.
+
+Color palette:
+
+Primary:
+Dark coffee brown
+
+Secondary:
+Cream / warm off-white
+
+Accent:
+Warm beige / subtle gold
+
+Supporting:
+Dark charcoal
+
+The visual language should communicate:
+
+COZY
+PREMIUM
+APPETIZING
+SOCIAL
+RELAXING
+MODERN
+
+Avoid:
+- Generic restaurant templates
+- Excessive gradients
+- Neon colors
+- Excessive glassmorphism
+- Overly corporate styling
+- Excessive animations
+- Clutter
+- Tiny text
+- Too many colors
+
+Typography:
+Use an elegant display font for major headings and a highly readable modern sans-serif for body text.
+
+Create a consistent design system for:
+- Typography
+- Buttons
+- Cards
+- Spacing
+- Border radius
+- Shadows
+- Icons
+- Forms
+- Animations
+
+==================================================
+4. UX PSYCHOLOGY
+==================================================
+
+Use ETHICAL behavioral design principles to improve usability and conversion.
+
+Do not manipulate or deceive users.
+
+Apply:
+
+A. VISUAL HIERARCHY
+
+The most important information should be immediately visible:
+
+Cafe Square
+↓
+What the cafe offers
+↓
+Food imagery
+↓
+Explore Menu
+↓
+Order / Visit
+↓
+Location
+
+Use size, spacing, contrast and position to guide attention.
+
+B. FAMILIARITY
+
+Use familiar UI patterns.
+
+Users should immediately understand:
+- Menu
+- Order
+- Call
+- Directions
+- Cart
+- Contact
+
+Do not make users learn unusual interactions.
+
+C. VISUAL APPETITE
+
+Food photography should be one of the strongest visual elements.
+
+Use:
+- Large food images
+- Close-up crops
+- Warm lighting
+- Strong contrast
+- Clean backgrounds
+- Generous whitespace
+
+Use image placeholders if actual images are unavailable.
+
+Make it extremely easy for the owner to replace placeholder images later.
+
+D. FRICTION REDUCTION
+
+Reduce the number of steps required to:
+
+Call
+Order
+Find location
+View menu
+
+Examples:
+
+"Call Now"
+"Order Now"
+"Get Directions"
+
+should be immediately accessible.
+
+E. CTA HIERARCHY
+
+Primary CTA:
+Order Now
+
+Secondary CTA:
+Explore Menu
+
+Tertiary:
+Get Directions
+Call Cafe
+
+Do not make every button visually equal.
+
+F. SOCIAL PROOF
+
+If verified customer reviews become available, create a dedicated review section.
+
+Until verified reviews are supplied:
+DO NOT fabricate them.
+
+G. SCARCITY
+
+Never create fake scarcity.
+
+Only show:
+- Limited-time offers
+- Today's specials
+- Limited items
+
+if the owner provides real information.
+
+H. RECIPROCITY / VALUE
+
+Make the site useful before asking users to order.
+
+Let visitors:
+- Browse menu
+- Discover popular items
+- Find location
+- Check hours
+- See food
+- Understand the cafe
+
+I. COGNITIVE LOAD
+
+Avoid overwhelming users.
+
+Use:
+- Clear categories
+- Progressive disclosure
+- Short descriptions
+- Visual grouping
+- Consistent layouts
+
+==================================================
+5. HERO SECTION
+==================================================
+
+Create a cinematic hero section.
+
+Large food/café image or video background.
+
+Main heading:
+
+"Good Food. Great Drinks. Better Moments."
+
+Supporting text:
+
+"Your cozy corner in Rajapalayam for delicious bites, refreshing drinks and memorable moments."
+
+Buttons:
+
+[Explore Menu]
+[Order Now]
+
+Add:
+
+📍 Rajapalayam, Tamil Nadu
+
+Animation sequence:
+
+1. Background image slowly zooms
+2. Heading fades upward
+3. Subtitle appears
+4. CTA buttons appear
+5. Decorative element subtly floats
+
+Do NOT make the hero animation distracting.
+
+==================================================
+6. NAVIGATION
+==================================================
+
+Create:
+
+Logo:
+CAFE SQUARE
+
+Navigation:
+
+Home
+Menu
+About
+Gallery
+Contact
+
+CTA:
+Order Now
+
+Desktop:
+Sticky navigation.
+
+On scroll:
+Transition from transparent → blurred/dark background.
+
+Mobile:
+Animated hamburger menu.
+
+Menu links should smoothly scroll to sections.
+
+Navigation should remain usable on mobile.
+
+==================================================
+7. MENU EXPERIENCE
+==================================================
+
+Do NOT simply create a long list.
+
+Create a highly interactive menu experience.
+
+Categories:
+
+Tea & Coffee
+Mojitos & Coolers
+Sandwiches
+Fries
+Momos
+Maggi
+Burgers
+Popcorn
+Pizza
+Pasta
+Desserts
+
+Features:
+
+- Category filtering
+- Search menu
+- Food cards
+- Images
+- Item name
+- Description
+- Price field
+- Add to order
+- Quantity controls
+- Cart
+
+Menu data must be stored separately from UI.
+
+Example structure:
+
+menuData = [
+ {
+   category: "Burgers",
+   name: "Crispy Paneer Burger",
+   description: "...",
+   price: null,
+   image: "..."
+ }
+]
+
+Make prices editable.
+
+If price is unknown display:
+
+₹ —
+
+==================================================
+8. ORDER EXPERIENCE
+==================================================
+
+Create a lightweight ordering/cart system.
+
+User can:
+
+Add item
+↓
+Change quantity
+↓
+View cart
+↓
+Review order
+↓
+Choose ordering method
+
+Options:
+
+Call Cafe
+WhatsApp Order
+
+Do not implement payment unless payment credentials/API are actually provided.
+
+WhatsApp order should automatically construct a message such as:
+
+"Hi Cafe Square, I would like to order:
+
+2 x Crispy Paneer Burger
+1 x Ginger Tea
+
+Total: ₹___"
+
+Use the actual configured phone number.
+
+==================================================
+9. BEST SELLERS / FEATURED SECTION
+==================================================
+
+Create:
+
+"Customer Favorites"
+
+Use attractive food cards.
+
+Do not call items "best sellers" unless the business confirms they are actually best sellers.
+
+If data is not verified, use:
+
+"Featured Picks"
+
+Cards should include:
+
+Image
+Name
+Description
+Price
+Order button
+
+==================================================
+10. ABOUT SECTION
+==================================================
+
+Create an elegant two-column section.
+
+Left:
+Large café image
+
+Right:
+Cafe Square story
+
+Keep copy concise and authentic.
+
+Include four feature cards:
+
+☕ Drinks
+🍕 Food
+✨ Atmosphere
+❤️ Good Moments
+
+Do not invent business history.
+
+==================================================
+11. GALLERY
+==================================================
+
+Create a premium masonry gallery.
+
+Categories:
+
+Cafe
+Drinks
+Food
+Desserts
+Atmosphere
+
+Interactions:
+
+Hover → image zoom
+
+Hover → dark overlay
+
+Click → fullscreen lightbox
+
+Lightbox:
+- Smooth fade
+- Scale animation
+- Close button
+- Keyboard support
+- Mobile swipe support
+
+==================================================
+12. LOCATION
+==================================================
+
+Create a dedicated location section.
+
+Show:
+
+Cafe Square
+
+Chinnasamy Mahal, 143E,
+PAC Ramasamy Raja Salai,
+near Andal Puram Bus Stop,
+Samsigapuram,
+Rajapalayam,
+Tamil Nadu 626108
+
+Buttons:
+
+[Get Directions]
+[Call Cafe]
+
+Add a Google Maps embed or map placeholder.
+
+Make the map easy to replace/configure.
+
+==================================================
+13. CONTACT
+==================================================
+
+Create a clean contact section.
+
+Fields:
+
+Name
+Phone
+Email
+Message
+
+Add:
+
+Phone:
++91 63812 83608
+
+Opening Hours:
+9:30 AM – 10:30 PM
+
+Add proper validation.
+
+Show success/error states.
+
+==================================================
+14. FLOATING ACTION BUTTONS
+==================================================
+
+On mobile:
+
+Floating bottom actions:
+
+📞 Call
+💬 WhatsApp
+📍 Directions
+
+Desktop:
+
+Floating WhatsApp button.
+
+Add subtle pulse animation.
+
+Do NOT make it annoying.
+
+==================================================
+15. ANIMATIONS
+==================================================
+
+Use professional micro-interactions.
+
+Page load:
+
+fade + slide
+
+Scroll:
+
+Intersection Observer reveal animations
+
+Cards:
+
+hover → translateY + shadow
+
+Images:
+
+hover → scale 1.05
+
+Buttons:
+
+hover → scale slightly + shadow
+
+Links:
+
+animated underline
+
+Icons:
+
+subtle movement
+
+Gallery:
+
+fade + scale
+
+Cart:
+
+small bounce when item is added
+
+Navbar:
+
+smooth background transition
+
+Use:
+
+transform
+opacity
+filter
+
+where possible.
+
+Avoid expensive animations.
+
+Use:
+
+cubic-bezier(0.22, 1, 0.36, 1)
+
+Animation duration:
+300–800ms
+
+Respect:
+
+prefers-reduced-motion
+
+==================================================
+16. MOBILE EXPERIENCE
+==================================================
+
+Mobile is NOT an afterthought.
+
+Design mobile-first.
+
+Test:
+
+320px
+375px
+390px
+414px
+768px
+1024px
+1440px+
+
+Ensure:
+
+No horizontal scrolling
+Readable text
+Large touch targets
+Easy navigation
+Fast menu browsing
+Easy calling
+Easy WhatsApp ordering
+
+==================================================
+17. PERFORMANCE
+==================================================
+
+Optimize the website.
+
+Use:
+
+Lazy loading
+Responsive images
+WebP/AVIF where appropriate
+Code splitting where useful
+Minimal JavaScript
+Optimized fonts
+CSS transforms for animations
+
+Target:
+
+Lighthouse Performance: 90+
+Accessibility: 90+
+Best Practices: 90+
+SEO: 90+
+
+Do not sacrifice accessibility for visual effects.
+
+==================================================
+18. ACCESSIBILITY
+==================================================
+
+Implement:
+
+Semantic HTML
+ARIA where required
+Keyboard navigation
+Visible focus states
+Alt text
+Good color contrast
+Accessible buttons
+Accessible forms
+Reduced motion support
+
+==================================================
+19. SEO
+==================================================
+
+Create SEO-friendly metadata.
+
+Title:
+
+Cafe Square Rajapalayam | Cafe, Coffee & Food
+
+Meta description:
+
+"Visit Cafe Square in Rajapalayam for refreshing beverages, snacks, pizzas, burgers, momos and more."
+
+Use:
+
+LocalBusiness schema
+CafeOrCoffeeShop schema where appropriate
+Opening hours
+Address
+Phone
+Geo information if available
+
+Create:
+
+robots.txt
+sitemap.xml
+
+Use clean URLs.
+
+==================================================
+20. LOCAL DISCOVERY
+==================================================
+
+Optimize the website for people searching:
+
+Cafe in Rajapalayam
+Coffee shop in Rajapalayam
+Best cafe near Andal Puram
+Food near Rajapalayam
+Cafe Square Rajapalayam
+
+Do NOT make unsupported claims such as "best cafe" unless verified.
+
+==================================================
+21. TECH STACK
+==================================================
+
+Use:
+
+React
+Vite
+Tailwind CSS
+
+Use reusable components.
+
+Suggested structure:
+
+src/
+ ├── components/
+ │   ├── Navbar
+ │   ├── Hero
+ │   ├── About
+ │   ├── Menu
+ │   ├── MenuCard
+ │   ├── CategoryFilter
+ │   ├── Cart
+ │   ├── Gallery
+ │   ├── Location
+ │   ├── Contact
+ │   └── Footer
+ │
+ ├── data/
+ │   └── menuData.js
+ │
+ ├── assets/
+ │
+ ├── pages/
+ │
+ ├── App.jsx
+ └── main.jsx
+
+Keep business data separate from presentation code.
+
+==================================================
+22. BACKEND / FUTURE EXTENSIBILITY
+==================================================
+
+Structure the project so a backend can be added later.
+
+Prepare for:
+
+Admin dashboard
+Menu management
+Price updates
+Image management
+Orders
+Customer enquiries
+Offers
+Analytics
+
+Do NOT add unnecessary backend complexity if it isn't required for the current version.
+
+==================================================
+23. ADMIN-FRIENDLY DESIGN
+==================================================
+
+Make it easy for the cafe owner/developer to change:
+
+Business phone
+Address
+Opening hours
+Menu items
+Prices
+Food images
+Gallery images
+WhatsApp number
+Social media links
+
+Keep these values centralized in configuration/data files.
+
+==================================================
+24. SECURITY
+==================================================
+
+Follow secure coding practices.
+
+Do not expose:
+
+API keys
+Secrets
+Passwords
+Private credentials
+
+Use environment variables.
+
+Sanitize user input.
+
+Do not store unnecessary personal information.
+
+==================================================
+25. TESTING
+==================================================
+
+Before deployment, test:
+
+Navigation
+Mobile menu
+Menu filters
+Search
+Cart
+Quantity controls
+WhatsApp order
+Call button
+Directions
+Gallery
+Lightbox
+Forms
+Animations
+Responsive layouts
+
+Test on:
+
+Chrome
+Edge
+Safari where possible
+Mobile viewport
+
+Fix all console errors.
+
+There should be:
+
+NO broken links
+NO missing assets
+NO console errors
+NO layout overflow
+NO dead buttons
+
+==================================================
+26. DEPLOYMENT
+==================================================
+
+After the application is complete:
+
+1. Install dependencies
+2. Run development server
+3. Test the application
+4. Fix errors
+5. Run production build
+6. Test production build
+7. Deploy the application to a suitable hosting platform
+
+Preferred deployment options:
+
+Vercel
+Netlify
+Cloudflare Pages
+
+Choose the simplest appropriate platform supported by the environment.
+
+Configure:
+
+Production build
+Environment variables
+Routing
+SPA fallback
+HTTPS
+Domain-ready configuration
+
+IMPORTANT:
+
+Actually deploy the application.
+
+Do not stop after generating the code.
+
+After deployment, verify that the live website loads correctly.
+
+==================================================
+27. FINAL QUALITY CHECK
+==================================================
+
+Before considering the task complete, ask yourself:
+
+Does this look like a real premium café website?
+
+Does it immediately communicate what Cafe Square is?
+
+Can someone find the menu within seconds?
+
+Can someone order without confusion?
+
+Can someone call the cafe easily?
+
+Can someone find the location easily?
+
+Does the food look visually appealing?
+
+Are animations smooth rather than distracting?
+
+Does it work beautifully on mobile?
+
+Is the site fast?
+
+Is the information accurate?
+
+Are unsupported claims avoided?
+
+Are there any console errors?
+
+Are there any broken interactions?
+
+Fix anything that fails these checks.
+
+==================================================
+28. FINAL DELIVERABLE
+==================================================
+
+Do not just give me an explanation.
+
+Build the complete working application.
+
+Then:
+
+1. Show me the finished website
+2. Give me the live deployed URL
+3. Give me the project/source code
+4. Explain how to run it locally
+5. Explain how to update menu items/prices
+6. Explain where to replace images
+7. Explain where to change phone/address/hours
+8. List any information that still needs to be supplied by Cafe Square
+9. Confirm that the production build was tested successfully
+
+Most importantly:
+
+BUILD → TEST → FIX → OPTIMIZE → DEPLOY.
+
+Do not stop at the design stage.

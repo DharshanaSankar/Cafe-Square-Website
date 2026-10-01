@@ -1,0 +1,547 @@
+==================================================
+30. MOBILE-FIRST RESPONSIVE DESIGN — CRITICAL
+==================================================
+
+The website MUST be designed and tested as a true mobile-first experience.
+
+Do NOT simply create the desktop website and shrink it for mobile.
+
+Design the mobile experience independently while maintaining the same Cafe Square visual identity.
+
+SUPPORTED SCREEN SIZES:
+
+Test and optimize for:
+
+- 320px — small phones
+- 360px — Android phones
+- 375px — iPhone
+- 390px — modern iPhones
+- 414px — large phones
+- 430px — large iPhones
+- 480px — large Android phones
+- 768px — tablets
+- 1024px — tablets/small laptops
+- 1280px+
+- 1440px+
+- 1920px
+
+==================================================
+MOBILE NAVIGATION
+==================================================
+
+Desktop:
+Logo + navigation links + Order Now button.
+
+Mobile:
+
+Show:
+Cafe Square logo
+Hamburger menu
+Order button/icon
+
+When hamburger is tapped:
+
+Open a full-screen or large slide-in navigation menu.
+
+Menu items:
+
+Home
+Menu
+About
+Gallery
+Contact
+Location
+
+Use a smooth slide/fade animation.
+
+Include:
+[Order Now]
+
+The menu must close when:
+- A navigation item is selected
+- Close button is tapped
+- User taps outside the menu where appropriate
+
+Prevent background scrolling while the mobile menu is open.
+
+==================================================
+MOBILE HERO
+==================================================
+
+Hero must be specifically redesigned for mobile.
+
+Do NOT use the same desktop layout.
+
+Mobile structure:
+
+[Food/Cafe Image]
+
+Cafe Square
+
+"Good Food.
+Great Drinks.
+Better Moments."
+
+Short description
+
+[Explore Menu]
+[Order Now]
+
+Location:
+📍 Rajapalayam
+
+Use a mobile-optimized image crop.
+
+Make sure:
+- Heading never gets cut off
+- Buttons don't overflow
+- Text remains readable
+- Hero doesn't consume an unnecessarily large amount of vertical space
+
+Hero animation:
+
+Image:
+slow zoom
+
+Text:
+fade + slide upward
+
+Buttons:
+staggered appearance
+
+Keep animations lightweight for mobile performance.
+
+==================================================
+MOBILE MENU EXPERIENCE
+==================================================
+
+The menu must be extremely easy to browse with one hand.
+
+Use horizontally scrollable category tabs:
+
+Tea & Coffee →
+Mojitos →
+Sandwiches →
+Fries →
+Momos →
+Maggi →
+Burgers →
+Pizza →
+Pasta →
+Desserts →
+
+Category tabs should support touch/swipe.
+
+Do NOT force users to click tiny buttons.
+
+Menu cards on mobile:
+
+Image
+Item name
+Short description
+Price
+Add button
+
+Use a clean single-column layout or optimized 2-column layout depending on screen width.
+
+At 320px–390px:
+Prefer single-column food cards where necessary.
+
+At larger phones:
+Allow 2-column cards only if readability remains excellent.
+
+==================================================
+MOBILE FOOD CARD
+==================================================
+
+Food cards should have:
+
+Large touch-friendly image
+Item name
+Short description
+Price
+Add button
+
+Avoid:
+Tiny text
+Tiny buttons
+Crowded cards
+
+Minimum touch target:
+approximately 44px × 44px.
+
+==================================================
+MOBILE CART
+==================================================
+
+Create a mobile-friendly cart.
+
+When items are added:
+
+Show a compact cart bar at the bottom:
+
+🛒 3 items
+View Cart → ₹___
+
+The cart bar should remain accessible while browsing.
+
+When opened:
+
+Show a bottom-sheet cart.
+
+Cart should include:
+
+Item
+Quantity + / -
+Price
+Remove
+
+Then:
+
+Order via WhatsApp
+Call Cafe
+
+Use smooth bottom-sheet animation.
+
+==================================================
+MOBILE ORDER FLOW
+==================================================
+
+Keep ordering extremely simple.
+
+Target flow:
+
+Browse
+↓
+Add
+↓
+View Cart
+↓
+Confirm
+↓
+WhatsApp / Call
+
+Avoid unnecessary registration or login.
+
+Do not force users to create an account.
+
+==================================================
+MOBILE FLOATING ACTIONS
+==================================================
+
+Provide easy access to important actions.
+
+On mobile, create a bottom action bar or floating buttons for:
+
+📞 Call
+💬 WhatsApp
+📍 Directions
+
+Do not cover important content.
+
+The buttons must respect:
+- Safe areas
+- iPhone home indicator
+- Browser bottom navigation
+- Small screens
+
+Use:
+
+padding-bottom: env(safe-area-inset-bottom)
+
+where appropriate.
+
+==================================================
+MOBILE GALLERY
+==================================================
+
+Use a touch-friendly gallery.
+
+Desktop:
+Masonry grid.
+
+Mobile:
+2-column optimized grid OR single-column depending on image aspect ratios.
+
+Images:
+- Lazy loaded
+- Properly cropped
+- Smooth tap animation
+
+Tap image:
+Open fullscreen lightbox.
+
+Support:
+- Swipe left/right
+- Close button
+- Back gesture where appropriate
+
+==================================================
+MOBILE ABOUT SECTION
+==================================================
+
+Desktop:
+Two-column layout.
+
+Mobile:
+Stack vertically:
+
+Image
+↓
+Heading
+↓
+Description
+↓
+Features
+
+Do not squeeze two desktop columns into mobile.
+
+==================================================
+MOBILE LOCATION
+==================================================
+
+Stack:
+
+Location heading
+↓
+Address
+↓
+Opening hours
+↓
+Get Directions
+↓
+Call
+↓
+Map
+
+Buttons must be large enough for easy thumb interaction.
+
+==================================================
+MOBILE CONTACT FORM
+==================================================
+
+Use full-width fields.
+
+Input height:
+At least 44–48px.
+
+Use appropriate mobile keyboard types:
+
+Phone:
+type="tel"
+
+Email:
+type="email"
+
+Message:
+textarea
+
+Do not create tiny form fields.
+
+When keyboard opens:
+Make sure the focused field remains visible.
+
+==================================================
+MOBILE FOOTER
+==================================================
+
+Use a clean stacked footer.
+
+Cafe Square
+
+Address
+
+Phone
+
+Opening hours
+
+Quick links
+
+Social icons
+
+Order button
+
+Do not create a cramped multi-column footer.
+
+==================================================
+MOBILE TYPOGRAPHY
+==================================================
+
+Typography must automatically scale across screen sizes.
+
+Use responsive typography such as:
+
+clamp()
+
+Example:
+
+Hero heading:
+clamp(2.2rem, 8vw, 5rem)
+
+Do not allow:
+- Text clipping
+- Overlapping text
+- Extremely small body text
+- Excessive line length
+
+Body text should remain comfortable to read.
+
+==================================================
+MOBILE SPACING
+==================================================
+
+Use responsive spacing.
+
+Do not use huge desktop padding on mobile.
+
+Sections should generally have:
+
+16–24px horizontal padding.
+
+Maintain sufficient whitespace without wasting vertical space.
+
+==================================================
+MOBILE ANIMATIONS
+==================================================
+
+Animations must be lighter on mobile.
+
+Use:
+
+opacity
+transform
+scale
+
+Avoid expensive animations.
+
+Do not animate large background elements continuously if it affects performance.
+
+Respect:
+
+@media (prefers-reduced-motion: reduce)
+
+When reduced motion is enabled:
+- Disable decorative animations
+- Keep essential transitions minimal
+
+==================================================
+TOUCH INTERACTIONS
+==================================================
+
+Design for fingers, not mouse pointers.
+
+All interactive elements should have comfortable touch targets.
+
+Avoid:
+- Tiny links
+- Tiny icons
+- Closely packed buttons
+- Hover-only functionality
+
+Every important desktop hover interaction must have an equivalent mobile interaction.
+
+Example:
+
+Desktop:
+Hover food card → image zoom
+
+Mobile:
+Tap food card → subtle feedback
+
+==================================================
+MOBILE PERFORMANCE
+==================================================
+
+Optimize aggressively for mobile networks.
+
+Use:
+
+WebP / AVIF images
+Lazy loading
+Responsive image sizes
+srcset
+Code splitting
+Minimal JavaScript
+Compressed assets
+Optimized fonts
+
+Avoid loading huge desktop images on mobile.
+
+Example:
+
+Mobile:
+480–800px image
+
+Desktop:
+1200–2000px image
+
+Do not download a 4K image for a 390px phone.
+
+==================================================
+MOBILE SEO
+==================================================
+
+Make the website discoverable from mobile Google searches.
+
+Optimize for searches such as:
+
+Cafe Square Rajapalayam
+Cafe in Rajapalayam
+Coffee shop Rajapalayam
+Cafe near Andal Puram
+Food in Rajapalayam
+
+Use valid structured data.
+
+==================================================
+MOBILE BROWSER TESTING
+==================================================
+
+Before deployment, test the website using mobile viewport sizes:
+
+320 × 568
+360 × 800
+375 × 667
+390 × 844
+393 × 852
+414 × 896
+430 × 932
+
+Verify:
+
+✓ No horizontal scrolling
+✓ No overlapping elements
+✓ No clipped text
+✓ No broken images
+✓ No broken buttons
+✓ Navigation works
+✓ Menu works
+✓ Cart works
+✓ WhatsApp works
+✓ Call button works
+✓ Directions works
+✓ Gallery works
+✓ Forms work
+✓ Animations work
+✓ Footer works
+✓ Touch interactions work
+
+==================================================
+MOBILE-FIRST QUALITY RULE
+==================================================
+
+The mobile version must feel like a deliberately designed mobile application experience, NOT a desktop website compressed into a phone.
+
+If a desktop component does not work well on mobile:
+
+DO NOT simply shrink it.
+
+Redesign the component specifically for mobile while maintaining the Cafe Square brand identity.
+
+The final website must provide an excellent experience on both:
+
+DESKTOP 🖥️
+and
+MOBILE 📱
+
+Neither platform should feel like the secondary experience.

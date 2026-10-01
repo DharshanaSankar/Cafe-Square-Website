@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Cafe Square"
+description = "A mobile-first website for Cafe Square in Rajapalayam, helping visitors browse the menu, build an order for WhatsApp or phone, and find the cafe."
+version = "1.0.0"
+id = "artifacts/cafe-square"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 18131
+
+[services.development]
+run = "pnpm --filter @workspace/cafe-square run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/cafe-square", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/cafe-square/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "18131"
+BASE_PATH = "/"
