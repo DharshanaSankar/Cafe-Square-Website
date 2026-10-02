@@ -16,7 +16,7 @@ PORT=3000 BASE_PATH=/ pnpm --filter @workspace/cafe-square run build
 - `src/data/business.ts` — display name, phone, WhatsApp number, address, displayed hours, and the Google Maps search text. Keep `phoneLink` in international format and `whatsappNumber` as country code plus digits.
 - `src/data/menu.ts` — categories and menu items. Set a verified price in rupees when Cafe Square provides it; leave `price: null` until then. Descriptions and images are optional.
 - `src/data/gallery.ts` — gallery filters and gallery image titles, categories, paths, and alt text.
-- `public/images/cafe-interior.jpg` and `public/images/tea-sandwich.jpg` — illustrative placeholders. Replace these with approved Cafe Square photos using the same filenames, or update the paths in the data files.
+- `public/images/` — generated illustrative placeholders for the hero, menu cards, and dessert gallery. Replace them with approved Cafe Square photos or update the paths in the data files.
 - `index.html` — page title, search description, social preview text, and local-business structured data.
 
 WhatsApp links open a prefilled message for the customer to review; the site does not send messages or place orders automatically. Cart totals remain marked as pending until prices are entered.

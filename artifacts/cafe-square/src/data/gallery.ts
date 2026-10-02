@@ -6,4 +6,5 @@ export const galleryImages: GalleryImage[] = [
   { id: 'tea-table', title: 'A slow tea break', category: 'Drinks', src: '/images/tea-sandwich.jpg', alt: 'Illustrative tea and sandwich on a cafe table' },
   { id: 'interior-detail', title: 'Warm light, easy company', category: 'Atmosphere', src: '/images/cafe-interior.jpg', alt: 'Illustrative cafe corner in warm afternoon light' },
   { id: 'table-detail', title: 'Something for the pause', category: 'Food', src: '/images/tea-sandwich.jpg', alt: 'Illustrative cafe tea and sandwich setting' },
+  { id: 'dessert-assortment', title: 'A little something sweet', category: 'Desserts', src: '/images/gallery-desserts.jpg', alt: 'Illustrative dessert assortment; not a confirmed Cafe Square menu item' },
 ];

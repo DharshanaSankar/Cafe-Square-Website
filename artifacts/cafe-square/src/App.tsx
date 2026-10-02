@@ -118,7 +118,7 @@ function App() {
         {featured && <div className="featured-label"><Sparkles size={13} aria-hidden="true" /> Featured pick</div>}
         <div className="product-image">
           {item.image
-            ? <><img src={item.image} alt={`Illustrative placeholder image for ${item.name}`} loading="lazy" /><span>Illustrative image</span></>
+            ? <><img src={item.image} alt={`Illustrative placeholder image for ${item.name}`} /><span>Illustrative image</span></>
             : <><ImageIcon size={19} aria-hidden="true" /><span>Photo to be added</span></>}
         </div>
         <div className="product-topline"><span>{item.category}</span><span className="price-label" data-testid={`text-price-${item.id}`}>{item.price === null ? '₹ —' : `₹ ${item.price}`}</span></div>
@@ -213,7 +213,7 @@ function App() {
             <div className="gallery-filters" role="group" aria-label="Filter gallery">
               {galleryCategories.map((category) => <button key={category} className={galleryFilter === category ? 'gallery-filter selected' : 'gallery-filter'} aria-pressed={galleryFilter === category} onClick={() => { setGalleryFilter(category); setLightboxIndex(null); }} data-testid={`button-gallery-filter-${category.toLowerCase().replaceAll(' ', '-')}`}>{category}</button>)}
             </div>
-            <div className="gallery-grid">{visibleGallery.map((image, index) => <button className={`gallery-tile tile-${index % 4}`} key={image.id} onClick={() => openGalleryImage(image.id)} aria-label={`View illustrative image: ${image.title}`} data-testid={`button-gallery-image-${image.id}`}><img src={image.src} alt={image.alt} loading="lazy" /><span className="gallery-tile-overlay"><span>{image.title}</span><ImageIcon size={18} /></span></button>)}</div>
+            <div className={`gallery-grid${visibleGallery.length === 1 ? ' gallery-grid-single' : ''}`}>{visibleGallery.map((image, index) => <button className={`gallery-tile tile-${index % 4}`} key={image.id} onClick={() => openGalleryImage(image.id)} aria-label={`View illustrative image: ${image.title}`} data-testid={`button-gallery-image-${image.id}`}><img src={image.src} alt={image.alt} /><span className="gallery-tile-overlay"><span>{image.title}</span><ImageIcon size={18} /></span></button>)}</div>
             {!visibleGallery.length && <div className="gallery-empty" data-testid="status-gallery-empty">No illustrative images in this category yet. Replace or add photos in <code>public/images</code>.</div>}
             <p className="gallery-disclaimer">All generated cafe and food visuals are illustrative placeholders—not actual venue photos or confirmed dishes. Replace each image in <code>public/images</code> at any time.</p>
           </div>
